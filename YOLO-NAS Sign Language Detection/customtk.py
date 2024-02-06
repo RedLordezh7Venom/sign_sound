@@ -155,7 +155,7 @@ def click_handler_function3():
 
 def click_handler_function4():
     import subprocess
-    subprocess.run(["python","C:/Users/prabh/darknet/blindness.py"])
+    subprocess.run(["python","C:/Users/prabh/darknet/object_to_speech.py"])
 
 btn_text_to_speech = CTkButton(master=app, text="Text to Speech", command=click_handler,height=70,width=700)
 btn_text_to_speech.place(relx=0.5, rely=0.25, anchor="center")
