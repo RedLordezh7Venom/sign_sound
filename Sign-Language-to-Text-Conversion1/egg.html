@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .button-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+        }
+
+        .button {
+            width: 200px;
+            height: 200px;
+            margin: 20px;
+            position: relative;
+            overflow: hidden;
+            background: rgba(255, 255, 255, 0.5);
+            border: 2px solid #ccc;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: background 0.3s ease-in-out;
+        }
+
+        .button:hover {
+            background: rgba(255, 255, 255, 0.8);
+        }
+
+        .button img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .button-text {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            color: #333;
+            font-size: 18px;
+            font-weight: bold;
+        }
+    </style>
+    <title>Button Page</title>
+</head>
+<body>
+
+<div class="button-container">
+    <div class="button">
+        <img src="text_to_speech_image.jpg" alt="Text to Speech">
+        <div class="button-text">Go</div>
+    </div>
+    <div class="button">
+        <img src="speech_to_text_image.jpg" alt="Speech to Text">
+        <div class="button-text">Go</div>
+    </div>
+    <div class="button">
+        <img src="sign_image.jpg" alt="Sign">
+        <div class="button-text">Go</div>
+    </div>
+    <div class="button">
+        <img src="object_image.jpg" alt="Object">
+        <div class="button-text">Go</div>
+    </div>
+</div>
+
+</body>
+</html>
